@@ -116,8 +116,8 @@ input[type="password"]:focus {
 
 }
 
-#user-password:invalid,
-#confirm-password:invalid {
+#user-password:user-invalid,
+#confirm-password:user-invalid {
     outline-color: red;
     box-shadow: none;
 }
